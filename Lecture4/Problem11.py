@@ -4,13 +4,13 @@ c = int(input())
 
 median = 0
 
-if b < a < c or b > a > c:
+if b <= a <= c or b >= a >= c:
     median = a
 
-elif a < b < c or a > b > c:
+elif a <= b <= c or a >= b >= c:
     median = b
 
-elif a < c < b or a > c > b:
+elif a <= c <= b or a >= c >= b:
     median = c
 
 print(f"{median:.0f}")
