@@ -10,11 +10,12 @@ try:
             continue
         times -= 1
         if num > user_num:
-            print("too low")
+            print("Too low")
         elif num < user_num:
-            print("too high")
+            print("Too high")
         else:
-            print("exactly right")
+            print("Exactly right")
+            print("Thank you for playing")
             break
     else:
         print("Sorry, try again!")
