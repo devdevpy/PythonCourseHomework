@@ -19,9 +19,7 @@ for i2 in range(num, num - 9, -1):
     if i2 == rev2:
         break
 
-if count == count2:
-    print(i2)
-elif count > count2:
+if count >= count2:
     print(i2)
 else:
     print(i)
