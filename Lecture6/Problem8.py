@@ -1,5 +1,3 @@
-from math import *
-
 for i in range(1, 8):
     if i == 1:
         for a in range(1, 6):
