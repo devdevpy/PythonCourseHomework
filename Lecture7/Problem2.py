@@ -4,11 +4,11 @@ count = 0
 try:
     while True:
         num = int(input())
-        if num == 0 or num < 0:
+        if num <= 0:
             break
         list_.append(num)
         count += 1
-    if count < 4:
+    if count < 4 or num < 0:
         print("You must enter a minimum of four positive numbers.")
         exit()
 except ValueError:
