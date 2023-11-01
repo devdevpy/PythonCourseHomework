@@ -3,8 +3,7 @@ import random
 list_nums = []
 
 while True:
-    nums = random.triangular(1, 50)
-    nums = int(nums)
+    nums = random.randint(1, 50)
     if not nums in list_nums:
         list_nums.append(nums)
 
@@ -12,5 +11,4 @@ while True:
             list_nums = sorted(list_nums)
             break
 
-for i in list_nums:
-    print(f"{i}")
+print(*list_nums)
