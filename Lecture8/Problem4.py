@@ -1,5 +1,4 @@
 dict_ = {}
-
 city = input()
 
 try:
