@@ -1,5 +1,6 @@
-city = input()
 dict_ = {}
+
+city = input()
 
 try:
 
