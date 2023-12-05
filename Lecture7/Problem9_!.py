@@ -13,3 +13,15 @@ for row in range(1, 5):
 #     for col in row:
 #         print(col, end=" ")
 #     print()
+
+for row in range(1, 5):
+    col = 1
+    while col <= 4:
+        if col % 2 != 0:
+            el = row + 4 * (col - 1)
+            print(el, end=" ")
+        else:
+            el = 4 * col -(row - 1)
+            print(el, end=" ")
+        col += 1
+    print()
